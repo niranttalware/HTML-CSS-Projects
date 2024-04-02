@@ -1,0 +1,113 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: grey;
+}
+
+.pimg1{
+    background-image: url(images/840402.jpg);
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url(images/5015298.jpg);
+    min-height: 400px;
+}
+
+.pimg3{
+    background-image: url(images/840360.jpg );
+    min-height: 450px;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg4{
+    background-image: url(images/rolls_royce_ghost_black_badge_car_4k_8k_hd_car.jpg);
+    min-height: 100%;
+    background-position: right;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-left: 40%;
+    padding-top: 4%;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext2{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding-left: 50%;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext3{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext4{
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    width: 100%;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textBg{
+    background-color: #313534;
+    color: white;
+    padding: 20px;
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+
+.section-light{
+    background-color: whitesmoke;
+    color: darkslategrey;
+}
+
+.section-dark{
+    background-color: darkslategrey;
+    color: white;
+}
+
+.ptext4{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
